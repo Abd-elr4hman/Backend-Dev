@@ -4,14 +4,8 @@ A simple RESTfull CRUD API Implemented with Node.js+Express and Python+FastAPI.
 # How to run
 ### Node version:
 ```
-cd Node+Express
+cd jobs-API
 nodemon start
-```
-
-### FastAPI version:
-```
-cd Python+FastAPI
-uvicorn app:app --port 3000 --reload
 ```
 
 # Test with Postman collection
