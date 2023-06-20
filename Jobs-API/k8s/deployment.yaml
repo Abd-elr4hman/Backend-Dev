@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jobs-api
+spec:
+  selector:
+    matchLabels:
+      app: jobs-api
+  template:
+    metadata:
+      labels:
+        app: jobs-api
+    spec:
+      containers:
+        - name: jobs-api
+          image: 3bdulrahman/jobs_api
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 3000
