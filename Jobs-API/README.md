@@ -4,7 +4,7 @@ A simple RESTfull CRUD API Implemented with Node.js+Express and Python+FastAPI.
 # How to run
 ### Node version:
 ```
-cd jobs_API
+cd jobs_api
 nodemon start
 ```
 
