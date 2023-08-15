@@ -18,7 +18,7 @@ uvicorn app:app --port 3000 --reload
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/20861561-87190136-6920-4809-a81d-77bd49018793?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D20861561-87190136-6920-4809-a81d-77bd49018793%26entityType%3Dcollection%26workspaceId%3Debcdedd2-fbc8-46bc-95f1-bfb7d7b18460)
 
 ## Goals:
-* [x] Build highly scalable RESTful API's to create, read, update and delete data from a mongodb database.
+* [x] Build highly scalable RESTful API to create, read, update and delete data from a mongodb database.
 * [x] Implement validation for endpoints to ensure that the data being entered is valid.
 * [x] Implement pagination, sorting and filtering for get endpoints.
 * [x] Use docker to build API containers.
